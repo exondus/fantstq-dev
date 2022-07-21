@@ -14,7 +14,9 @@
       "@/config": ["./config/*"],
       "@/screens": ["./screens/*"],
       "@/hooks": ["./hooks/*"],
-      "@/assets": ["./assets/*"]
+      "@/assets": ["./assets/*"],
+      "@/types": ["./types/*"],
+      "@/data": ["./data/*"]
     }
   }
 }

@@ -26,6 +26,12 @@ export default function useCachedResources() {
         const imageAssets = cacheImages([
           require('../assets/images/bg.png'),
           require('../assets/logos/logo.png'),
+          require('../assets/images/avatar.png'),
+          require('../assets/articles/chippa.jpeg'),
+          require('../assets/articles/darren.jpeg'),
+          require('../assets/articles/chippa_2.jpeg'),
+          require('../assets/articles/williams.jpeg'),
+          require('../assets/articles/messi.jpeg'),
         ]);
 
         // Load fonts

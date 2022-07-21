@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import {
   NavigationContainer,
   DarkTheme,
@@ -9,38 +8,17 @@ import { useSelector } from 'react-redux';
 
 import AuthNavigator from './auth';
 import MainNavigator from './main';
-import { colors } from 'constants/colors';
 
-const customDarkTheme = {
-  ...DarkTheme,
-  colors: {
-    backgroundColor: colors.black,
-    iconColor: colors.darkGrey,
-    activeTabIconColor: colors.primary,
-    textColor: colors.textColor,
-  },
-};
-
-const customLightTheme = {
-  ...DefaultTheme,
-  colors: {
-    backgroundColor: colors.lightGrey,
-    iconColor: colors.darkGrey,
-    activeTabIconColor: colors.secondary,
-    textColor: colors.textColor,
-  },
-};
+import { RootState } from 'store/index';
 
 export default function RootNavigation() {
-  const [isAuth, setIsAuth] = useState(false);
   const theme = useColorScheme();
-  const state = useSelector((state) => state);
-
-  console.log('Updated State', state);
+  // const state = useSelector((state: RootState) => state.theme);
+  const { isLoggedIn } = useSelector((state: RootState) => state.auth);
 
   return (
     <NavigationContainer theme={theme === 'dark' ? DarkTheme : DefaultTheme}>
-      {isAuth ? <MainNavigator /> : <AuthNavigator />}
+      {isLoggedIn ? <MainNavigator /> : <AuthNavigator />}
     </NavigationContainer>
   );
 }
