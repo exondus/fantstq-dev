@@ -1,4 +1,4 @@
-import { getType } from '@reduxjs/toolkit';
+
 
 export interface FixtureItemProps {
   score: any;

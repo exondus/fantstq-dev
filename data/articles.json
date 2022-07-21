@@ -1,41 +1,46 @@
 [
   {
     "id": "01",
+    "slug": "chippa-16-signings",
     "title": "Chippa United incredibly announce 16 new signings",
     "excerpt": "DStv Premiership side Chippa United have taken the drastic step in preparing for the upcoming season by announcing an incredible 16 signings in a massive squad overhaul.",
-    "cover": "../assets/articles/chippa.jpeg",
+    "coverImage": "assets/articles/chippa.jpeg",
     "date": "Jul 20, 2022",
     "author": "Staff Writer"
   },
   {
     "id": "02",
+    "slug": "sa-star-farewell",
     "title": "SA star bids farewell to Moroccan club",
     "excerpt": "Former SuperSport United striker Darren Smith has bid farewell to Moroccan side FAR Rabat.",
-    "cover": "../assets/articles/darren.jpeg",
+    "coverImage": "assets/articles/darren.jpeg",
     "date": "Jul 20, 2022",
     "author": "Staff Writer"
   },
   {
     "id": "03",
+    "slug": "chippa-survive-ban",
     "title": "Chippa survive FIFA transfer ban",
     "excerpt": "Chippa United have adhered to the FIFA ruling ordering them to pay Nigerian forward Augustine Chidi Kwem all his dues to avoid a transfer ban being imposed.",
-    "cover": "../assets/articles/chippa_2.jpeg",
+    "coverImage": "assets/articles/chippa_2.jpeg",
     "date": "Jul 20, 2022",
     "author": "Staff Writer"
   },
   {
     "id": "04",
+    "slug": "sundowns-announce-williams",
     "title": "Sundowns set to announce Williams capture imminently",
     "excerpt": "Bafana Bafana captain Ronwen Williams looks set to be announced by DStv Premiership champions Mamelodi Sundowns imminently from rivals SuperSport United.",
-    "cover": "../assets/articles/williams.jpeg",
+    "coverImage": "assets/articles/williams.jpeg",
     "date": "Jul 20, 2022",
     "author": "Staff Writer"
   },
   {
     "id": "05",
+    "slug": "mls-club-eye-messi",
     "title": "MLS club eyes Messi signing",
     "excerpt": "An executive at a Major League Soccer (MLS) club has stated that they will try to sign Paris Saint-Germain superstar Lionel Messi if the opportunity arises.",
-    "cover": "../assets/articles/messi.jpeg",
+    "coverImage": "assets/articles/messi.jpeg",
     "date": "Jul 20, 2022",
     "author": "Staff Writer"
   }
